@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;700;800&family=Poppins:wght@100;200;400&family=Raleway:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear{
+    clear: left;
+}
+
+.header{
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: #444449;
+}
+
+.header-logo{
+    float: left;
+    padding: 0 25px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    color: white;
+    line-height: 60px;
+}
+
+.menu-icon{
+    float: right;
+    font-size: 27px;
+    padding: 0px 25px;
+    line-height: 60px;
+    display: none;
+}
+
+.fa-bars{
+    color: white;
+}
+
+.header-list a{
+    float: left;
+    line-height: 60px;
+    padding: 0 20px;
+    list-style: none;
+    font-size: 13px;
+    font-family: 'Jost', sans-serif;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    display: block;
+    transition: all 0.5s;
+}
+
+.header-list a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.main{
+    padding: 0px;
+    text-align: center;   
+    font-family: 'Jost', sans-serif;
+    color: #444449;
+    background-color: #FFFFFF;
+}
+
+.top-wrapper{
+    padding: 130px 0px 70px 0px;
+}
+
+.top-wrapper h1{
+    font-size: 78px;
+    color: #444449;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 7px;
+    margin: 0px;
+    font-weight: 800;
+}
+
+.top-wrapper span{
+    color: #ffd500;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+}
+
+.top-wrapper p{
+    color: #444449;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    margin: 10px 0px 0px 0px;
+}
+
+.banner-profil{
+    height: 160px;
+    margin: 5px 0px 0px 0px;
+}
+
+.about{
+    background-color: #F5F5F5;
+    padding: 50px 110px ;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.about p{
+    font-size: 14px;
+    line-height: 18.5px;
+}
+
+.project-items{
+    background-color: #FFFFFF;
+    padding: 50px 0px;
+}
+
+.content-items{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+}
+
+.item img{
+    height: 210px;
+}
+
+.item{
+    width: 25%;
+    flex: auto;
+    font-size: 13px;
+}
+
+.contact-form{
+    background-color: #F5F5F5;
+    padding: 50px 30px;
+}
+
+.contact-form h3{
+    margin: 0px;
+    padding: 10px 0px 30px 0px;
+}
+
+input, textarea, button{
+    margin-bottom: 20px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 12px;
+    font-family: 'Jost', sans-serif;
+}
+
+.btn-submit {
+    width: 370px;
+    font-size: 12px;
+    background-color: #F7e989;
+    color: #444449;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: #7c7d82;
+    height: 150px;
+    padding: 25px 25px 20px 25px ;
+}
+
+.footer-logo{
+    float: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    color: white;
+}
+
+.footer-list {
+    float: right;
+    padding-top: 15px;
+}
+
+.footer-list a {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 12px;
+    font-family: 'Jost', sans-serif;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    display: block;
+}
